@@ -28,6 +28,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="css/jquery.flipster.min.css">
+      <link rel="stylesheet" href="css/lightbox.min.css">
+
 </head>
 
 <body>
@@ -345,7 +348,7 @@
       <section id="schedule" class="section-with-bg">
         <div class="container wow fadeInUp">
           <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item">
+            <li class="nav-item" id="broucher">
               <a class="nav-link"
                 href="https://drive.google.com/file/d/1g3nXFFvSl7BaK_EDdEvtEbtm2Z_rAtBD/view?usp=sharing"
                 target="_blank">Official Brochure</a>
@@ -592,7 +595,7 @@
     <!--==========================
       Team Section
     ============================-->
-    <section id="speakers" class="wow fadeInUp">
+    <!-- <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Supervisory Faculties</h2>
@@ -995,8 +998,480 @@
         </div>
         <br><br>
 
-    </section>
+    </section> -->
     <!--- changed the position of team members section to the bottom, just above the footer -->
+     <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+      <div class="section-header">
+          <h2>Supervisory <span class="color">Faculties</span></h2>
+          <p>The supporting faculty members</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Sourav Dutta</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/sourav.dutta.923171"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Prithwish Das</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/prithwish.das.9"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Soumi Ghosh Mukherjee</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/soumi.ghoshmukherjee"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/f4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Namrata Chowdhury</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/namratacse"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/f4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Rajdeep Chakraborty</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/namratacse"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/f4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Arnab Chakraborty</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/namratacse"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/f4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Saumen Sarkar</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/namratacse"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/f4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Anupam Ghosh</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/namratacse"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/f4.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Rajkumar Patra</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/namratacse"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container">
+        <div class="section-header">
+          <h2>Student <span class="color">Heads</span></h2>
+        </div>
+        <!-- profile 1 -->
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/anshi.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Anshi Kumari</a></h3>
+                <p>PR Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <!-- profile 2 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/shalini.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Shalini Kumari</a></h3>
+                <p>Convenor</p>
+                <div class="social">
+                  <a href="#"><i class="fa fa-linkedin "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                  </div>
+              </div>
+            </div>
+          </div>
+
+           <!-- profile 3 -->
+           <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/soham.jpeg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">Soham Chakraborty</a></h3>
+                  <p>Design and Development Lead</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa- "></i></a>
+                    <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                     
+                    <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+
+          <!-- Profile 4 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/anish.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Anish Kumar</a></h3>
+                <p>PR Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-linkedin "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 5 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/adarsh.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Adarsh Kumar</a></h3>
+                <p>Event Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <!-- <a href="https://www.facebook.com/people/Adarsh-Kumar/100033834124023" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 6 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/nahid.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Nahid Ali</a></h3>
+                <p>Managerial Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/profile.php?id=100008422950574" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 7 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/komal.jpeg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Komal Gupta</a></h3>
+                <p>Alumini Association</p>
+                <div class="social">
+                  <a href="#"><i class="fa fa-linkedin "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 8 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/shilpi.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Shilpi Mukherjee</a></h3>
+                <p>Head of Alumni Association</p>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="https://www.facebook.com/varsha.mukherjee.90" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href="https://www.linkedin.com/in/shilpi-mukherjee-606b41172/" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Profile 9 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/anshul.jpeg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Anshul Aditya</a></h3>
+                <p>Alumini Association</p>
+                <div class="social">
+                  <a href="#"><i class="fa fa-linkedin "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 10 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/ishani.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Ishani Seth</a></h3>
+                <p>Cultural Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-linkedin "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 11 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/papri.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Papri Roy Chowdhury</a></h3>
+                <p>Creative Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 12 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/neeladri.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Neeladri Chattopadhyay</a></h3>
+                <p>Cultural Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 13 -->
+          <div class="col-lg-4 col-md-4">
+            <div class="speaker">
+              <img src="img/speakers/vishal.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Vishal Kumar</a></h3>
+                <p>PR Head</p>
+                <div class="social">
+                  <a href=""><i class="fa fa- "></i></a>
+                  <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                   
+                  <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <!-- Profile 14 -->
+            <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/suprodip.jpg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">Suprodip Kundu</a></h3>
+                  <p>Design & Social Media</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa- "></i></a>
+                    <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                     
+                    <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- profile 15 -->
+             <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/harshit.jpg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">Harshit Kumar Gupta</a></h3>
+                  <p>Social Media and Design</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa- "></i></a>
+                    <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                     
+                    <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile 16 -->
+            <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/barenya.jpg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">Barenya Nandi</a></h3>
+                  <p>Creative Head</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa- "></i></a>
+                    <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                     
+                    <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile 17 -->
+            <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/tausif.jpg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">Md Tausif Ahmad</a></h3>
+                  <p>Treasurer</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa- "></i></a>
+                    <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                     
+                    <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Profile 18 -->
+            <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/kundanika.jpg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">Kundanika Chatterjee</a></h3>
+                  <p>Creative Head</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa- "></i></a>
+                    <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                     
+                    <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Profile 19 -->
+            <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/Rahmat.jpg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">Md Rahmat Ali</a></h3>
+                  <p>Volunteer</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa- "></i></a>
+                    <!-- <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a> -->
+                     
+                    <a href="#" target = "_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile 20
+            <div class="col-lg-4 col-md-4">
+              <div class="speaker">
+                <img src="img/speakers/23.jpg" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="speaker-details.html">----</a></h3>
+                  <p>----</p>
+                  <div class="social">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" target = "_blank"><i class="fa fa-facebook"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+                    
+      </div>
+      <br><br>
+      
+    </section>
   </main>
 
 
@@ -1067,6 +1542,18 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+   <script src="lib/jquery/lightbox-plus-jquery.min.js"></script>
+      <script src="lib/jquery/jquery.flipster.min.js"></script>
+      <script>
+          $('.carousel').flipster({
+              style:'carousel',
+              spacing:-0.2,
+  
+              loop: true,
+              autoplay: 2000,
+              click: true, //check
+          });
+      </script>
 </body>
 
 </html>

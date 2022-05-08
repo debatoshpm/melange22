@@ -716,9 +716,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker {
+  /* position: relative;
+  overflow: hidden;
+  margin-bottom: 30px; */
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+#speakers .speaker img {
+  height: 350px;
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+/* hover effect by SPD */
+#speakers .speaker:hover {
+  box-shadow: 0px 0px 5px 0px #ffeded;
+}
+
+#speakers .speaker:hover img {
+  /* height: 380px;
+  width: 330px; */
+  transform: scale(1.15);
+}
+
+#speakers .speaker:hover .details {
+  background: #ff4c29;
 }
 
 #speakers .speaker .details {
@@ -1689,4 +1716,42 @@ time {
   #subscribe button {
     margin-top: 10px;
   }
+}
+
+/*---------gallery-----*/
+#gallery {
+  padding: 60px 5%;
+  overflow: hidden;
+  /* background: #111; */
+}
+
+.hero {
+  width: 100%;
+  height: 88vh;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8) 200px,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 1)
+  );
+  overflow: hidden;
+  margin: 20px auto 0px;
+}
+
+.hero .carousel {
+  width: 250px;
+  margin: 10px auto 20px;
+  overflow: visible;
+}
+
+.carousel img {
+  -webkit-box-reflect: below 20px
+    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+}
+
+#gallery .section-header h2 {
+  color: #fff;
+}
+
+#schedule #broucher a:hover {
+  background: #f82249;
 }
