@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #ff4c29;
   outline: none;
   text-decoration: none;
 }
@@ -162,11 +162,16 @@ h6 {
 #header.header-scrolled,
 #header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
+  -webkit-box-shadow: 0 8px 6px -6px #111827;
+  -moz-box-shadow: 0 8px 6px -6px #111827;
+  box-shadow: 0 8px 6px -6px #111827;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
 }
-
+.white {
+  color: #fff !important;
+}
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
@@ -660,12 +665,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/about-bg-22.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  background-position-y: center;
   /* height: 100vh; */
   /* line-height: 2rem; */
 }
@@ -855,7 +861,7 @@ time {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #c2c3ff;
+  background-color: #111827;
   font-weight: bold;
 }
 #schedule .schedule-item time {
@@ -899,7 +905,9 @@ time {
   margin-bottom: 0;
 }
 .schedule-item h4 {
-  color: #6b7280 !important;
+  /* color: #6b7280 !important;
+   */
+  color: #fff;
   /* font-weight: 400 !important; */
 }
 
@@ -1126,6 +1134,7 @@ time {
 
 #faq {
   padding: 60px 0;
+  color: #fff !important;
 }
 
 #faq #faq-list {
@@ -1164,13 +1173,16 @@ time {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #fff;
 }
 
 #faq #faq-list a.collapsed i::before {
   content: "\f055" !important;
+  color: #ff4c29;
 }
-
+.grey {
+  color: #9195a2 !important;
+}
 /*--------------------------------------------------------------
 # Subscribe Section
 --------------------------------------------------------------*/
@@ -1222,7 +1234,7 @@ time {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #ff4c29;
 }
 
 /*--------------------------------------------------------------
@@ -1279,7 +1291,7 @@ time {
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #ff4c29;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1298,7 +1310,7 @@ time {
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #ff4c29;
 }
 
 /*--------------------------------------------------------------
@@ -1402,7 +1414,7 @@ time {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #e0072f;
+  background: #ff4c29;
 }
 
 /*--------------------------------------------------------------
@@ -1541,7 +1553,7 @@ time {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+  background: #ff4c29;
 }
 
 #footer .copyright {
