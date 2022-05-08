@@ -1725,29 +1725,6 @@ time {
   /* background: #111; */
 }
 
-.hero {
-  width: 100%;
-  height: 88vh;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.8) 200px,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 1)
-  );
-  overflow: hidden;
-  margin: 20px auto 0px;
-}
-
-.hero .carousel {
-  width: 250px;
-  margin: 10px auto 20px;
-  overflow: visible;
-}
-
-.carousel img {
-  -webkit-box-reflect: below 20px
-    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
-}
-
 #gallery .section-header h2 {
   color: #fff;
 }
