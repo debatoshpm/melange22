@@ -728,7 +728,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
 }
 #speakers .speaker img {
-  height: 350px;
+  height: 400px;
   width: 100%;
   transition: transform 0.5s;
 }
@@ -1069,50 +1069,45 @@ time {
 }
 
 /*--------------------------------------------------------------
-# Gallery Section
+# Gallery Section : SPD Battlefield %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 --------------------------------------------------------------*/
 
 #gallery {
-  padding: 60px;
+  padding: 60px 5%;
   overflow: hidden;
+  background: rgba(6, 12, 34, 0.98);
 }
 
-#gallery .owl-nav,
-#gallery .owl-dots {
-  margin-top: 25px;
-  text-align: center;
+.hero{
+  width:100%;
+  height: 88vh;
+  background: linear-gradient(rgba(255,255,255,0.9) 300px, rgba(0,0,0,0.7),rgba(0,0,0,1));
+  overflow: hidden;
+  margin:20px auto 0px;
 }
 
-#gallery .owl-item {
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-}
-
-#gallery .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#gallery .owl-dot.active {
-  background-color: #ff4c29;
-}
-
-#gallery .gallery-carousel .owl-stage-outer {
+.hero .carousel{
+  width: 250px;
+  margin: 5px auto 20px;
   overflow: visible;
+
 }
 
-#gallery .gallery-carousel .center {
-  border: 6px solid #ff4c29;
-  margin: -10px;
-  box-sizing: content-box;
-  padding: 4px;
-  background: #fff;
-  z-index: 1;
+.carousel img{
+ 
+  -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
 }
+
+/* customization by SPD*/
+#gallery .section-header h2{
+  color:#fff;
+}
+
+#schedule #broucher a:hover{
+  background: #f82249;
+}
+
+
 
 /*--------------------------------------------------------------
 # supporters Section
