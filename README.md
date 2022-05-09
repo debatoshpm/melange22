@@ -1,3 +1,3 @@
-# melange19.github.io
+# melange22.github.io
 
 A landing page for the upcoming CSE Reunion of Netaji Subhash Engineering College
