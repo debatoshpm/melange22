@@ -782,7 +782,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #ff4c29;
+  color: #fff !important;
 }
 
 #speakers .speaker:hover .details {
