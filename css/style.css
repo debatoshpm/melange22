@@ -729,7 +729,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #speakers .speaker img {
   height: 400px;
-  width: 100%;
+  width: 100%; /*not by SPD*/
   transition: transform 0.5s;
 }
 
@@ -1159,6 +1159,46 @@ time {
 
 #supporters img {
   transition: all 0.4s ease-in-out;
+}
+
+/*-------------------------------------------------------------
+# Executive section
+---------------------------------------------------------------*/
+#speakers .container .executives{
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 23rem); 
+}
+
+#speakers .container .executives .member{
+  background-image: linear-gradient( 94.3deg,  rgb(39, 48, 88) 10.9%, rgb(17, 20, 57) 87.1% );
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  display: block;
+  text-align: center;
+  line-height: 90px;
+  height: 90px;
+  padding: 15px 10px;
+  margin:10px;
+
+}
+
+#speakers .container .executives .member h3{
+  font: 1.5rem sans-serif;
+  color: #ffffff;
+
+}
+#speakers .container .executives .member p{
+  color: #ffffff;
+  font: 1.2rem sans-serif;
+  font-style: italic;
+}
+
+#speakers .container .executives .member:hover {
+  border: 4px solid #ffeded;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #a6b2f3 0%, #c85066 46%, #FFCC70 100%);
+  box-shadow: 0px 0px 20px #ffeded;
 }
 
 /*--------------------------------------------------------------
@@ -1603,6 +1643,24 @@ time {
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
+
+@media screen and (max-width: 767px){
+  #speakers .container .executives{
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+}
+
+@media (min-width: 768px){
+  #speakers .container .executives{
+    grid-template-columns: repeat(auto-fit, 50%);
+  }
+}
+
+@media (min-width: 915px){
+  #speakers .container .executives{
+    grid-template-columns: repeat(auto-fit, 23rem);
+  }
+}
 
 @media (min-width: 767px) {
   #subscribe input {
